@@ -1,6 +1,17 @@
 # k8s-node-server
 k8s 테스트용 node server (k8s Test Node Server)  
 
+## Starting Local
+로컬에섯 테스트 할 경우 git clone 받아 사용
+```sh
+git clone https://github.com/xmflr95/k8s-node-server.git
+# start cmd
+npm run start
+# Check Server
+curl -XGET http://localhost:18000
+# response : K8S Node Server 1
+```
+
 ## Docker(Podman) Build
 ```sh
 # -t : tag
