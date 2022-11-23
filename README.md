@@ -6,6 +6,7 @@ k8s 테스트용 node server (k8s Test Node Server)
 ```sh
 git clone https://github.com/xmflr95/k8s-node-server.git
 # start cmd
+npm install
 npm run start
 # Check Server
 curl -XGET http://localhost:18000
